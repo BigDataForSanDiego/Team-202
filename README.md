@@ -8,7 +8,7 @@
 ##### `Gives the user an estimated wait time at an urgent care based on the severity of their condition`
 
 
-#### A visual
+####
 ![image](https://github.com/user-attachments/assets/a9003410-1b55-4047-afa1-347824f00bb3)
 
 
