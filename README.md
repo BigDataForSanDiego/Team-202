@@ -42,5 +42,5 @@
 
 #### Team Coordinator GitHub Username: `dylankle`
 
-#### Team Members `Pablo Wells: pablowells, Aaron Cayanan: aacayanan, Nathan Howard: tbd`
+#### Team Members `Pablo Wells: pablowells, Aaron Cayanan: aacayanan, Nathan Howard: nathanh210`
 
