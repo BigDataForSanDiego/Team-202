@@ -9,7 +9,7 @@
 
 
 ####
-![image](https://github.com/user-attachments/assets/a9003410-1b55-4047-afa1-347824f00bb3)
+![doctor_handwriting](https://github.com/user-attachments/assets/0efd1d9a-a144-4a18-8997-45d3ad0369a2)
 
 
 <!--
