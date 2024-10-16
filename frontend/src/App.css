@@ -1,0 +1,5 @@
+body {
+    background-image: url('./Assets/Wave Line.svg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
