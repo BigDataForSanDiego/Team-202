@@ -1,0 +1,51 @@
+.panel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 40%;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'open sans', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border-bottom: black 2px solid;
+}
+
+.file-name {
+    font-size: 0.8rem;
+}
+
+.file-upload {
+    border: dimgrey 2px dashed;
+    border-radius: 20px;
+    height: 20vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button-container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

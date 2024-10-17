@@ -7,14 +7,14 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import UploadPage from "./pages/UploadPage";
-import Panel from "./components/Panel";
+import Panel from "./pages/Panel";
+import Homepage from "./pages/Homepage";
 
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <Homepage />,
     },
     {
         path: '/upload',
