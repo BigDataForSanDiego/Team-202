@@ -1,19 +1,13 @@
 import './App.css';
+import Background from "./components/Background";
 
 function App() {
   return (
     <div className="App">
       <Background />
+        <h1>homepage</h1>
     </div>
   );
-}
-
-function Background() {
-  return (
-    <div className="background-image">
-
-    </div>
-  )
 }
 
 export default App;
