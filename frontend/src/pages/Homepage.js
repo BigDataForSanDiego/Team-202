@@ -1,5 +1,6 @@
 import React from 'react';
 import '../stylesheets/Homepage.css';
+import {Link} from "react-router-dom";
 
 function Homepage() {
     return (
@@ -19,8 +20,8 @@ function Homepage() {
                             which helps avoid mistakes and ensures people get the right medication.</p>
                     </div>
                     <div className="upload-button-container">
-                        <input type="submit" value="Get Started" className="upload-button"/>
-                        <span className="button-span"> ─ it's free</span>
+                        <Link to="/upload" className="upload-button">Get Started</Link>
+                        {/*<span className="button-span"> ─ it's free</span>*/}
                     </div>
                 </div>
             </div>

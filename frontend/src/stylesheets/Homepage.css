@@ -61,13 +61,10 @@ section {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.25s ease-out;
+    text-decoration: transparent;
 }
 
 .button-span {
     font-size: 0.8rem;
     color: dimgrey;
-}
-
-.upload-button:hover {
-    transform: translateY(-3px);
 }
