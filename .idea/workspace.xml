@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Initial workspace push">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Sidebar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="JSX File" />
       </list>
     </option>
@@ -34,6 +35,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2nVOA2Kadrs1SsXneNMgr42FiZS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,7 +84,7 @@
       <workItem from="1729054631051" duration="10752000" />
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
-      <workItem from="1729211351698" duration="12238000" />
+      <workItem from="1729211351698" duration="22510000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729226156251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Sidebar">
+      <option name="closed" value="true" />
+      <created>1729227681015</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729227681015</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +155,7 @@
     <MESSAGE value="Updated homepage" />
     <MESSAGE value="Initial Commit, Created Sidebar, Homepage, DashboardPage, Updated Sidebar, App, index" />
     <MESSAGE value="Initial workspace push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial workspace push" />
+    <MESSAGE value="Updated Sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Sidebar" />
   </component>
 </project>
