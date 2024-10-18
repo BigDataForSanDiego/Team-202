@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card.">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Homepage, Added and Updated ProfileCards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhatCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhatCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhoCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhoCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhyCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhyCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/common/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/common/CardTitle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/pages/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/pages/DashboardPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <workItem from="1729054631051" duration="10752000" />
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
-      <workItem from="1729211351698" duration="29446000" />
+      <workItem from="1729211351698" duration="40385000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729243278048</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated Homepage, Added and Updated ProfileCards">
+      <option name="closed" value="true" />
+      <created>1729251684462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729251684462</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Initial workspace push" />
     <MESSAGE value="Updated Sidebar" />
     <MESSAGE value="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card." />
+    <MESSAGE value="Updated Homepage, Added and Updated ProfileCards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Homepage, Added and Updated ProfileCards" />
   </component>
 </project>

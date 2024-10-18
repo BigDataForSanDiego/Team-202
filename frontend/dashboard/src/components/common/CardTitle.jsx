@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeaderComponent = ({ header }) => {
+const CardTitle = ({ header }) => {
     return (
         <div className='text-4xl font-bold text-gray-300 mb-6 text-center'>
             {header}
@@ -8,4 +8,4 @@ const HeaderComponent = ({ header }) => {
     );
 };
 
-export default HeaderComponent;
+export default CardTitle;

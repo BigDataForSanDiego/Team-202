@@ -7,7 +7,7 @@ import WhatCard from "../components/WhatCard.jsx";
 import HowCard from "../components/HowCard.jsx";
 import WhyCard from "../components/WhyCard.jsx";
 import WhoCard from "../components/WhoCard.jsx";
-import HeaderComponent from "../components/common/HeaderComponent.jsx";
+import CardTitle from "../components/common/CardTitle.jsx";
 
 const BUTTON_ITEMS = [
     {name: "The What?"},
@@ -28,28 +28,28 @@ const HomePage = () => {
             case "The What?":
                 return (
                     <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
-                        <HeaderComponent header="What is ParseCRIPTION?"/>
+                        <CardTitle header="What is ParseCRIPTION?"/>
                         <WhatCard/>
                     </div>
                     );
             case "The How?":
                 return (
                     <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
-                        <HeaderComponent header="How was ParseCRIPTION Made?"/>
+                        <CardTitle header="How was ParseCRIPTION Made?"/>
                         <HowCard/>
                     </div>
                 );
             case "The Why?":
                 return (
                     <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
-                        <HeaderComponent header="Why did we create ParseCRIPTION?"/>
+                        <CardTitle header="Why did we create ParseCRIPTION?"/>
                         <WhyCard/>
                     </div>
                 );
             case "The Who?":
                 return (
                     <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
-                        <HeaderComponent header="Meet Team-202: Beta Busters"/>
+                        <CardTitle header="Meet Team-202: Beta Busters"/>
                         <WhoCard/>
                     </div>
                 );
