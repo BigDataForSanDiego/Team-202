@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Initial Commit, Created Sidebar, Homepage, DashboardPage, Updated Sidebar, App, index" />
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Initial workspace push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,7 @@
       <workItem from="1729054631051" duration="10752000" />
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
-      <workItem from="1729211351698" duration="10985000" />
+      <workItem from="1729211351698" duration="12238000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -119,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729226002350</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial workspace push">
+      <option name="closed" value="true" />
+      <created>1729226156251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729226156251</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
     <MESSAGE value="Import missing files, Complete Homepage" />
     <MESSAGE value="Updated homepage" />
     <MESSAGE value="Initial Commit, Created Sidebar, Homepage, DashboardPage, Updated Sidebar, App, index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit, Created Sidebar, Homepage, DashboardPage, Updated Sidebar, App, index" />
+    <MESSAGE value="Initial workspace push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial workspace push" />
   </component>
 </project>

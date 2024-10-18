@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Activity, House, Menu} from "lucide-react";
-import {motion} from 'framer-motion';
+import {AnimatePresence, motion} from 'framer-motion';
 
 const SIDEBAR_ITEMS = [
     {name: "Homepage", icon: House, color: "#6366f1", path: "/"},
@@ -30,10 +30,24 @@ const Sidebar = () => {
                         <motion.a
                             key={index}
                             href={item.path}
-                            className='flex items-center justify-start p-2 rounded-md hover:bg-gray-700 transition-colors'
+                            className='flex items-center p-4 text-sm font-medium rounded-lg hover:bg-gray-700 transition-colors mb-2'
                         >
-                            <item.icon size={24} color={item.color}/>
-                            <span className='ml-4'>{item.name}</span>
+                            <item.icon size={20} color={item.color}/>
+                            <AnimatePresence>
+                                {isSidebarOpen && (
+                                    <motion.span
+                                        className='ml-4 whitespace-nowrap'
+                                        itital={{ opacity: 0, width: 0 }}
+                                        animate={{ opacity: 1, width: "auto" }}
+                                        exit={{ opacity: 0, width: 0 }}
+                                        transition={{ duration: 0.2, delay: 0.3 }}
+                                    >
+                                        {item.name}
+                                    </motion.span>
+
+                                )}
+
+                            </AnimatePresence>
                         </motion.a>
                     ))}
                 </nav>
