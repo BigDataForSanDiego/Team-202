@@ -1,13 +1,31 @@
-import React, { useRef, useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Upload } from "lucide-react";
+import TranslateComponent from './TranslateComponent';
 
 const UploadComponent = () => {
     const [file, setFile] = useState(null);
+    const [imageUrl, setImageUrl] = useState('');
     const fileInputRef = useRef(null);
+    const [translatedText, setTranslatedText] = useState('No file submitted.');
+
 
     const handleFileChange = (event) => {
         const selectedFile = event.target.files[0];
         setFile(selectedFile);
+        if (selectedFile) {
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setImageUrl(reader.result);
+            };
+            reader.readAsDataURL(selectedFile);
+        }
+    };
+
+    // FIXME: Implement the backend API call to translate the text in the image
+    const handleSubmit = () => {
+        if (file) {
+            setTranslatedText("clicked");
+        }
     };
 
     const triggerFileInput = () => {
@@ -24,7 +42,7 @@ const UploadComponent = () => {
                     onClick={triggerFileInput}
                 >
                     <Upload size={24} color='#F5F5F5'/>
-                </div>
+                    <p className='px-2'>{file ? file.name : 'upload a file'}</p></div>
                 <input
                     ref={fileInputRef}
                     id="file-upload"
@@ -33,18 +51,13 @@ const UploadComponent = () => {
                     onChange={handleFileChange}
                 />
                 <button
-                    onClick={() => alert('File submitted!')}
+                    onClick={handleSubmit}
                     className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 >
                     Submit
                 </button>
-                {file && (
-                    <div className="mt-4 text-sm text-gray-400">
-                        <strong>Selected file:</strong> {file.name}
-                    </div>
-                )}
             </div>
-        </div>
+            <TranslateComponent imageUrl={imageUrl} onTranslate={translatedText} />        </div>
     );
 };
 

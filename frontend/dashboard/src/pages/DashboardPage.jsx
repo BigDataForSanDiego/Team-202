@@ -10,7 +10,7 @@ const DashboardPage = () => {
             <Header title="Dashboard"/>
 
             <main className='max-w-7xl mx-auto py-20 px-6 lg:px-8 flex flex-col h-screen'>
-                <div className='grid grid-cols-12 gap-8 h-24'>
+                <div className='flex flex-col gap-8 h-24'>
                     <div className='col-span-4 p-4 rounded-lg'>
                         <NameCard />
                     </div>
@@ -18,11 +18,11 @@ const DashboardPage = () => {
                         <UploadComponent />
                     </div>
                 </div>
-                <div className='grid grid-cols-12 gap-8 h-24 mt-8 p-4'>
-                    <div className="col-span-12 w-full flex-grow rounded-lg">
-                        <TranslateComponent />
-                    </div>
-                </div>
+                {/*<div className='grid grid-cols-12 gap-8 h-24 mt-8 p-4'>*/}
+                {/*    <div className="col-span-12 w-full flex-grow rounded-lg">*/}
+                {/*        <TranslateComponent />*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </main>
         </div>
     );
