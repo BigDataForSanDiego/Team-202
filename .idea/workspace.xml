@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Sidebar">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhatCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhatCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhoCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhoCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/WhyCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/WhyCard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/pages/HomePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +65,7 @@
       <recent name="C:\Users\aacay\Documents\Code\BigDataHacks2024\frontend\src\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aacay\Documents\Code\BigDataHacks2024\frontend\dashboard\src\assets" />
       <recent name="C:\Users\aacay\Documents\Code\BigDataHacks2024\frontend\src\pages" />
     </key>
   </component>
@@ -84,7 +87,7 @@
       <workItem from="1729054631051" duration="10752000" />
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
-      <workItem from="1729211351698" duration="22510000" />
+      <workItem from="1729211351698" duration="29446000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -142,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729227681015</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card.">
+      <option name="closed" value="true" />
+      <created>1729243278048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729243278048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +167,7 @@
     <MESSAGE value="Initial Commit, Created Sidebar, Homepage, DashboardPage, Updated Sidebar, App, index" />
     <MESSAGE value="Initial workspace push" />
     <MESSAGE value="Updated Sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Sidebar" />
+    <MESSAGE value="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card." />
   </component>
 </project>

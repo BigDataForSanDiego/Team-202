@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Header from "../components/common/Header.jsx";
-import { motion } from 'framer-motion';
+import {motion} from 'framer-motion';
 import NameCard from "../components/common/NameCard.jsx";
 import ButtonCard from "../components/common/ButtonCard.jsx";
 import WhatCard from "../components/WhatCard.jsx";
 import HowCard from "../components/HowCard.jsx";
 import WhyCard from "../components/WhyCard.jsx";
 import WhoCard from "../components/WhoCard.jsx";
+import HeaderComponent from "../components/common/HeaderComponent.jsx";
 
 const BUTTON_ITEMS = [
-    { name: "The What?" },
-    { name: "The How?" },
-    { name: "The Why?" },
-    { name: "The Who?" }
+    {name: "The What?"},
+    {name: "The How?"},
+    {name: "The Why?"},
+    {name: "The Who?"}
 ];
 
 const HomePage = () => {
@@ -25,13 +26,33 @@ const HomePage = () => {
     const renderSelectedComponent = () => {
         switch (selectedCard) {
             case "The What?":
-                return <WhatCard />;
+                return (
+                    <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
+                        <HeaderComponent header="What is ParseCRIPTION?"/>
+                        <WhatCard/>
+                    </div>
+                    );
             case "The How?":
-                return <HowCard />;
+                return (
+                    <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
+                        <HeaderComponent header="How was ParseCRIPTION Made?"/>
+                        <HowCard/>
+                    </div>
+                );
             case "The Why?":
-                return <WhyCard />;
+                return (
+                    <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
+                        <HeaderComponent header="Why did we create ParseCRIPTION?"/>
+                        <WhyCard/>
+                    </div>
+                );
             case "The Who?":
-                return <WhoCard />;
+                return (
+                    <div className='flex flex-col items-center lg:space-y-14 sm:space-y-56'>
+                        <HeaderComponent header="Meet Team-202: Beta Busters"/>
+                        <WhoCard/>
+                    </div>
+                );
             default:
                 return null;
         }
@@ -39,16 +60,16 @@ const HomePage = () => {
 
     return (
         <div className='flex-1 overflow-auto relative z-10'>
-            <Header title="Homepage" />
+            <Header title="Homepage"/>
             <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
                 {/* STATS */}
                 <motion.div
                     className='flex flex-wrap gap-5 mb-8'
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
+                    initial={{opacity: 0, y: 20}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{duration: 1}}
                 >
-                    <NameCard />
+                    <NameCard/>
                     {BUTTON_ITEMS.map((item, index) => (
                         <ButtonCard
                             key={index}

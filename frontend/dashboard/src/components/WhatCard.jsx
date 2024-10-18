@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatCard = () => {
-    const text = "What is ParseCRIPTION? ParseCRIPTION is a full-stack application that helps make doctors' handwritten prescriptions " +
+    const text = "ParseCRIPTION is a full-stack application that helps make doctors' handwritten prescriptions " +
         "easier to read. It uses special handwriting recognition with machine learning technology to turn messy or hard-to-read notes from " +
         "doctors into clear, understandable text. This means that anyone, like pharmacists or patients, can easily " +
         "understand what the doctor wrote, which helps avoid mistakes and ensures people get the right medication."
