@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Translate and Upload Components">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Created server to link frontend to backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/UploadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/UploadComponent.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
       <workItem from="1729211351698" duration="45451000" />
-      <workItem from="1729298177249" duration="7077000" />
+      <workItem from="1729298177249" duration="9401000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729295979368</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created server to link frontend to backend">
+      <option name="closed" value="true" />
+      <created>1729305802224</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729305802224</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +216,7 @@
     <MESSAGE value="Updated Homepage, Added and Updated ProfileCards" />
     <MESSAGE value="Updated Dashboard" />
     <MESSAGE value="Updated Translate and Upload Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Translate and Upload Components" />
+    <MESSAGE value="Created server to link frontend to backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created server to link frontend to backend" />
   </component>
 </project>

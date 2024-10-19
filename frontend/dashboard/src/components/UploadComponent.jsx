@@ -61,7 +61,6 @@ const UploadComponent = () => {
             },
         });
 
-        // Optional: handle response data if needed
         console.log('File uploaded successfully:', response.data);
 
         // Now, fetch translated text after the file upload
@@ -71,6 +70,21 @@ const UploadComponent = () => {
     } catch (error) {
         console.error('Error uploading file:', error);
     }
+    //     // Ensure the POST request is successful before making the GET request
+    //     if (uploadResponse.status === 200) {
+    //         try {
+    //             const translatedString = await fetchAPI();
+    //             console.log(translatedString);
+    //             setTranslatedText(translatedString);
+    //         } catch (error) {
+    //             console.error('Error fetching translated text:', error);
+    //         }
+    //     } else {
+    //         console.error('File upload failed with status:', uploadResponse.status);
+    //     }
+    // } catch (error) {
+    //     console.error('Error uploading file:', error);
+    // }
 };
 
 
