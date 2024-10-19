@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import predict_word
+from predict_word.py import get_word
 
 app = Flask(__name__)
 cors = CORS(app, origins='*')
 
 the_word = None
+
+
 @app.route("/api/text", methods=['GET'])
 def text():
     return the_word
