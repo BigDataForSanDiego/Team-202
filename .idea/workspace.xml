@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Dashboard">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Updated Translate and Upload Components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/TranslateComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/TranslateComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/UploadComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/UploadComponent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/pages/DashboardPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/pages/DashboardPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1729054631051" duration="10752000" />
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
-      <workItem from="1729211351698" duration="44517000" />
+      <workItem from="1729211351698" duration="45451000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -168,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729289408244</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated Translate and Upload Components">
+      <option name="closed" value="true" />
+      <created>1729295979367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729295979368</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +190,7 @@
     <MESSAGE value="Added and finished STATS cards, Created Who/What/Why/How cards, finished What card." />
     <MESSAGE value="Updated Homepage, Added and Updated ProfileCards" />
     <MESSAGE value="Updated Dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Dashboard" />
+    <MESSAGE value="Updated Translate and Upload Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Translate and Upload Components" />
   </component>
 </project>
