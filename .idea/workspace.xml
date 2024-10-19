@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Update server, include keras model, dataset, and prediction algo">
+    <list default="true" id="0d831b87-eafe-4cd7-a3d0-0898c504231a" name="Changes" comment="Update Server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/dashboard/src/components/HowCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/dashboard/src/components/HowCard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1729121015356" duration="3000" />
       <workItem from="1729121104759" duration="14191000" />
       <workItem from="1729211351698" duration="45451000" />
-      <workItem from="1729298177249" duration="10371000" />
+      <workItem from="1729298177249" duration="10721000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit + Change Background Image">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729309005560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update Server">
+      <option name="closed" value="true" />
+      <created>1729309716669</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729309716669</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Updated Translate and Upload Components" />
     <MESSAGE value="Created server to link frontend to backend" />
     <MESSAGE value="Update server, include keras model, dataset, and prediction algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update server, include keras model, dataset, and prediction algo" />
+    <MESSAGE value="Update Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Server" />
   </component>
 </project>
