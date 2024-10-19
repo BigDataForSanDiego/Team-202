@@ -1,17 +1,21 @@
 import React, { useState, useRef } from 'react';
-import { Upload } from "lucide-react";
+import { Upload } from 'lucide-react';
 import TranslateComponent from './TranslateComponent';
+import axios from 'axios';
 
 const UploadComponent = () => {
     const [file, setFile] = useState(null);
     const [imageUrl, setImageUrl] = useState('');
     const fileInputRef = useRef(null);
     const [translatedText, setTranslatedText] = useState('No file submitted.');
+    const [selectedFile, setSelectedFile] = useState(null);
 
+    // FILE HANDLING START
 
     const handleFileChange = (event) => {
         const selectedFile = event.target.files[0];
         setFile(selectedFile);
+        setSelectedFile(selectedFile);
         if (selectedFile) {
             const reader = new FileReader();
             reader.onloadend = () => {
@@ -21,13 +25,56 @@ const UploadComponent = () => {
         }
     };
 
-    // FIXME: Implement the backend API call to translate the text in the image
-    const handleSubmit = () => {
-        if (file) {
-            setTranslatedText("clicked");
+    const fetchAPI = async () => {
+        try {
+            const response = await axios.get('http://localhost:8080/api/text');
+            return response.data;
+        } catch (error) {
+            throw new Error('Error fetching translated text');
         }
     };
 
+    // HANDLE SUBMIT BUTTON
+    // const handleSubmit = async () => {
+    //         try {
+    //             const translatedString = await fetchAPI();
+    //             console.log(translatedString);
+    //             setTranslatedText(translatedString);
+    //         } catch (error) {
+    //             console.error('Error fetching translated text:', error);
+    //         }
+    // };
+
+    const handleSubmit = async () => {
+    if (!selectedFile) {
+        console.error('No file selected');
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append('file', selectedFile);
+
+    try {
+        const response = await axios.post('http://localhost:8080/api/upload', formData, {
+            headers: {
+                'Content-Type': 'multipart/form-data',
+            },
+        });
+
+        // Optional: handle response data if needed
+        console.log('File uploaded successfully:', response.data);
+
+        // Now, fetch translated text after the file upload
+        const translatedString = await fetchAPI();
+        console.log(translatedString);
+        setTranslatedText(translatedString);
+    } catch (error) {
+        console.error('Error uploading file:', error);
+    }
+};
+
+
+    // TRIGGER FILE INPUT
     const triggerFileInput = () => {
         if (fileInputRef.current) {
             fileInputRef.current.click();
@@ -35,14 +82,15 @@ const UploadComponent = () => {
     };
 
     return (
-        <div className='bg-gray-800 bg-opacity-50 backdrop-blur-md overflow-hidden shadow-lg rounded-xl border border-gray-700 p-6'>
-            <div className='flex gap-8 items-center justify-center'>
+        <div className="bg-gray-800 bg-opacity-50 backdrop-blur-md overflow-hidden shadow-lg rounded-xl border border-gray-700 p-6">
+            <div className="flex gap-8 items-center justify-center">
                 <div
-                    className='flex-grow flex justify-center p-2 border border-dashed border-spacing-2 border-gray-500 rounded-lg cursor-pointer'
+                    className="flex-grow flex justify-center p-2 border border-dashed border-spacing-2 border-gray-500 rounded-lg cursor-pointer"
                     onClick={triggerFileInput}
                 >
-                    <Upload size={24} color='#F5F5F5'/>
-                    <p className='px-2'>{file ? file.name : 'upload a file'}</p></div>
+                    <Upload size={24} color="#F5F5F5" />
+                    <p className="px-2">{file ? file.name : 'Upload a file'}</p>
+                </div>
                 <input
                     ref={fileInputRef}
                     id="file-upload"
@@ -57,7 +105,8 @@ const UploadComponent = () => {
                     Submit
                 </button>
             </div>
-            <TranslateComponent imageUrl={imageUrl} onTranslate={translatedText} />        </div>
+            <TranslateComponent imageUrl={imageUrl} onTranslate={translatedText} />
+        </div>
     );
 };
 
